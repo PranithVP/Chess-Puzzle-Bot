@@ -11,7 +11,6 @@ from PIL import Image
 def get_puzzle_number():
     load_dotenv()
     counter = int(os.getenv("COUNTER"))
-    os.environ["COUNTER"] = str(counter + 1)
     return counter
 
 def post_fen(fen: str):

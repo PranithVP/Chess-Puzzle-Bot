@@ -1,4 +1,4 @@
-name: Post
+name: ManualPost
 
 on:
   workflow_dispatch:

@@ -2,3 +2,4 @@ instagrapi==1.17.13
 python-dotenv
 Pillow
 chess
+fentoboardimage

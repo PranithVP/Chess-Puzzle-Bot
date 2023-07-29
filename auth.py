@@ -2,7 +2,8 @@ from instagrapi import Client
 import os
 from dotenv import load_dotenv
 
-def create_client():    
+def create_client():
+    # Set login settings
     settings = {
         "uuids": {
             "phone_id": "d0ccfa47-8a4a-4825-9087-7582c187b99f",
@@ -29,7 +30,7 @@ def create_client():
         },
         "user_agent": "Instagram 269.0.0.18.75 Android (26/8.0.0; 480dpi; 1080x1920; OnePlus; 6T Dev; devitron; qcom; en_US; 314665256)",
     }
-    load_dotenv()
+    # Create and return client
     cl = Client(settings)
     username = os.getenv("INSTAGRAM_USER")
     password = os.getenv("INSTAGRAM_PASS")

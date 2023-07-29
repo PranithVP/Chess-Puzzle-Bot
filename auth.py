@@ -34,5 +34,5 @@ def create_client():
     cl = Client(settings)
     username = os.getenv("INSTAGRAM_USER")
     password = os.getenv("INSTAGRAM_PASS")
-    cl.login(username, password)
+    cl.login(username, password, "978859")
     return cl

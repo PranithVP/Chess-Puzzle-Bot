@@ -28,7 +28,7 @@ def create_client():
         "cpu": "qcom",
         "version_code": "314665256"
     },
-    "user_agent": "Instagram 269.0.0.18.75 Android (26/8.0.0; 480dpi; 1080x1920; OnePlus; 6T Dev; devitron; qcom; en_US; 314665256)",
+    "user_agent": "Instagram 99.234.151.160 Android (26/8.0.0; 480dpi; 1080x1920; OnePlus; 6T Dev; devitron; qcom; en_US; 314665256)",
 }
     load_dotenv()
     # Create and return client

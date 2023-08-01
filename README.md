@@ -14,6 +14,6 @@ The bot logs into Instagram using the [Instagrapi](https://adw0rd.github.io/inst
 # Dependencies
 The bot relies on the following Python libraries:
 
-[**fentoboardimage**](https://pypi.org/project/fentoboardimage/): A module for converting FEN strings to chessboard images.
-[**chess**](https://python-chess.readthedocs.io/en/latest/): A library that allows modifications to a chessboard.
-[**tempfile**](https://docs.python.org/3/library/tempfile.html), [**os**](https://docs.python.org/3/library/os.html), [**dotenv**](https://pypi.org/project/python-dotenv/), [**pathlib**](https://docs.python.org/3/library/pathlib.html), [**PIL**](https://pypi.org/project/Pillow/): Standard Python libraries for handling temporary files, environment variables, file paths, and image manipulation.
+**[fentoboardimage](https://pypi.org/project/fentoboardimage/)**: A module for converting FEN strings to chessboard images.
+**[chess](https://python-chess.readthedocs.io/en/latest/)**: A library that allows modifications to a chessboard.
+**[tempfile](https://docs.python.org/3/library/tempfile.html)**, **[os](https://docs.python.org/3/library/os.html)**, **[dotenv](https://pypi.org/project/python-dotenv/)**, **[pathlib](https://docs.python.org/3/library/pathlib.html)**, **[PIL](https://pypi.org/project/Pillow/)**: Standard Python libraries for handling temporary files, environment variables, file paths, and image manipulation.

@@ -1,7 +1,7 @@
 # Chess Puzzle Bot
 A python program that uses various libraries and the [Lichess database](https://database.lichess.org/#puzzles) to generate images of puzzles, then post them to Instagram. It aims to provide chess enthusiasts with challenging puzzles and engage the chess community on Instagram.
 
-Instagram account: https://www.instagram.com/puzzle.paradise/
+Instagram account: https://www.instagram.com/puzzle__paradise/
 
 # How it Works
 #### Puzzle Generation: 

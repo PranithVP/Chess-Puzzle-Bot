@@ -51,7 +51,7 @@ def post_fen(fenString: str, mateInN: int):
     else:
         caption = "White to play. Mate in " + str(mateInN) + " moves.\nCan you find the solution? Comment below! \nFollow @puzzle__paradise for daily chess puzzles! \n.\n.\n.\n#chess #chessmaster #chesstactics #chesstactic #chessplayer #chesscombinations #chesscombination #chesscom #chessdotcom #chessclub #chesstricks #dailychess #chesspuzzle #chesspuzzles #chessproblem #chessproblems #playchess #шахматы #shataranj #schach #schack #ajedrez #shah #schach #sjakk #szachy #scacco #shakh #echecs"
 
-    cl.photo_upload(filepath, caption)
+    cl.photo_upload(path=filepath, caption=caption, extra_data={"like_and_view_counts_disabled": 1})
     cl.logout()
 
 # Run script to post puzzle

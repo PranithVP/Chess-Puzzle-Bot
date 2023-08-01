@@ -1,6 +1,8 @@
 # Chess Puzzle Bot
 A python program that uses various libraries and the [Lichess database](https://lichess.org/) to generate images of puzzles, then post them to Instagram. It aims to provide chess enthusiasts with challenging puzzles and engage the chess community on Instagram.
 
+**Instagram account**: https://www.instagram.com/puzzle.paradise/
+
 # How it Works
 #### Puzzle Generation: 
 The bot fetches chess puzzles from the Lichess database using the puzzles module. Each puzzle is represented in [FEN (Forsyth-Edwards Notation)](https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation) format, along with its mate-in-N count.

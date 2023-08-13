@@ -47,7 +47,7 @@ def post_fen(fenString: str, mateInN: int):
     # Post using to Instagram using Instagrapi 
     cl = auth.create_client()
     if (mateInN == 0):
-        caption = "White to play and win.\nCan you find the solution? Comment below! \nFollow @puzzle__paradise for daily chess puzzles! \n.\n.\n.\n#chess #chessmaster #chesstactics #chesstactic #chessplayer #chesscombinations #chesscombination #chesscom #chessdotcom #chessclub #chesstricks #dailychess #chesspuzzle #chesspuzzles #chessproblem #chessproblems #playchess #шахматы #shataranj #schach #schack #ajedrez #shah #schach #sjakk #szachy #scacco #shakh #echecs"
+        caption = "White to play and win.\nCan you find the solution? Comment below! \nFollow @puzzle.paradise for daily chess puzzles! \n.\n.\n.\n#chess #chessmaster #chesstactics #chesstactic #chessplayer #chesscombinations #chesscombination #chesscom #chessdotcom #chessclub #chesstricks #dailychess #chesspuzzle #chesspuzzles #chessproblem #chessproblems #playchess #шахматы #shataranj #schach #schack #ajedrez #shah #schach #sjakk #szachy #scacco #shakh #echecs"
     else:
         caption = "White to play. Mate in " + str(mateInN) + " moves.\nCan you find the solution? Comment below! \nFollow @puzzle__paradise for daily chess puzzles! \n.\n.\n.\n#chess #chessmaster #chesstactics #chesstactic #chessplayer #chesscombinations #chesscombination #chesscom #chessdotcom #chessclub #chesstricks #dailychess #chesspuzzle #chesspuzzles #chessproblem #chessproblems #playchess #шахматы #shataranj #schach #schack #ajedrez #shah #schach #sjakk #szachy #scacco #shakh #echecs"
 

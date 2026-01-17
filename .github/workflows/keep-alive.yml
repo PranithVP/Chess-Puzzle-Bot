@@ -1,0 +1,16 @@
+name: Keep Railway Service Alive
+
+on:
+  schedule:
+    # Run every 9 minutes to prevent cold starts (Railway timeout is ~10 mins, 1 min safety margin)
+    - cron: '*/9 * * * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  ping-health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Health Endpoint
+        run: |
+          curl -f https://pigeon-production.up.railway.app/healthz || exit 1
+        continue-on-error: true # Don't fail the workflow if the service is down
